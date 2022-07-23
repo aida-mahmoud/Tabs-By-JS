@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+       <title>tabs task</title><meta charset='utf-8'>
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        button{
+            color: rgb(74, 110, 231);
+            background-color: white;
+            font-size: 15px;
+            border: none;
+            padding: 20px;
+        }
+        button:hover{
+            border: 1px solid rgb(209, 206, 206);
+            cursor:pointer;
+        }
+        #bts .active{
+            color: black;
+            border: 1px solid darkgray;
+            border-bottom: none;
+        }
+        #sections .active{
+           display: block !important;
+        }
+        section{
+            width: 40%;
+            margin: 20px;
+        }
+       .sec {
+            display: none;
+        }
+       #fir{
+            border: 1px solid lightgray;
+        }
+       
+    </style>
+
+    </head>
+   <body>
+
+    <div id="fir">
+        <div id="bts">
+            <button class="btn active" id="home">Home</button>
+            <button class="btn" id="profile">Profile</button>
+            <button class="btn" id="contact">Contact</button>
+            <button class="btn" id="products">Products</button>
+        </div>
+        
+        <div id="sections">
+            <section id="Home" class="sec active">
+                <b>This is some placeholder content the < Home >tab's associated content. </b>
+                Clicking another tab will toggle the visibility of this one for the next. 
+                The tab JavaScript swaps classes to control the content visibility and styling.
+                You can use it with tabs, pills, and any other .nav-powered navigation.
+        </section>
+        <section id="Profile" class="sec">
+                <b>This is some placeholder content the < Profile > tab's associated content. </b>
+                Clicking another tab will toggle the visibility of this one for the next. 
+                The tab JavaScript swaps classes to control the content visibility and styling.
+                You can use it with tabs, pills, and any other .nav-powered navigation.
+        </section>
+        <section id="Contact" class="sec">
+                <b>This is some placeholder content the < Contact >tab's associated content. </b>
+                Clicking another tab will toggle the visibility of this one for the next. 
+                The tab JavaScript swaps classes to control the content visibility and styling.
+                You can use it with tabs, pills, and any other .nav-powered navigation.
+        </section>
+        <section id="Products" class="sec">
+                <b>This is some placeholder content the < Products > tab's associated content. </b>
+                Clicking another tab will toggle the visibility of this one for the next. 
+                The tab JavaScript swaps classes to control the content visibility and styling.
+                You can use it with tabs, pills, and any other .nav-powered navigation.
+        </section>
+        </div>
+    
+    </div>
+    <script src="task3.js"></script>
+   </body>
+</html>
